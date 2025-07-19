@@ -1,13 +1,13 @@
 <p align="center" style="margin-top: 12px">
-  <a href="https://splitpro.app">
-  <img width="100px"  style="border-radius: 50%;" src="https://splitpro.app/logo_circle.png" alt="SplitPro Logo">
+  <a href="https://splitr.app">
+  <img width="100px"  style="border-radius: 50%;" src="https://splitr.app/logo_circle.png" alt="Splitr Logo">
   </a>
 
-  <h1 align="center">SplitPro</h1>
+  <h1 align="center">Splitr</h1>
   <h2 align="center">An open source alternative to Splitwise</h2>
 
 <p align="center">
-    <a href="https://splitpro.app"><strong>To our App »</strong></a>
+    <a href="https://splitr.app"><strong>To our App »</strong></a>
     <br />
     <br />
   </p>
@@ -15,7 +15,7 @@
 
 ## About
 
-SplitPro aims to provide an open-source way to share expenses with your friends.
+Splitr aims to provide an open-source way to share expenses with your friends.
 
 It's meant to be a complete replacement for Splitwise.
 
@@ -79,11 +79,11 @@ In case of an expense that cannot be split evenly, the leftover amounts are dist
 
 ## Docker
 
-We provide a Docker container for Splitpro, which is published on both DockerHub and GitHub Container Registry.
+We provide a Docker container for splitr, which is published on both DockerHub and GitHub Container Registry.
 
-DockerHub: [https://hub.docker.com/r/ossapps/splitpro](https://hub.docker.com/r/ossapps/splitpro)
+DockerHub: [https://hub.docker.com/r/ossapps/splitr](https://hub.docker.com/r/ossapps/splitr)
 
-GitHub Container Registry: [https://ghcr.io/oss-apps/splitpro](https://ghcr.io/oss-apps/splitpro)
+GitHub Container Registry: [https://ghcr.io/oss-apps/splitr](https://ghcr.io/oss-apps/splitr)
 
 You can pull the Docker image from either of these registries and run it with your preferred container hosting provider.
 
@@ -107,7 +107,7 @@ pnpm i
 
 - Copy the env.example file into .env
 - Setup google oauth required for auth https://next-auth.js.org/providers/google or Email provider by setting SMTP details
-- Login to minio console using `splitpro` user and password `password` and [create access keys](http://localhost:9001/access-keys/new-account) and the R2 related env variables
+- Login to minio console using `splitr` user and password `password` and [create access keys](http://localhost:9001/access-keys/new-account) and the R2 related env variables
 
 ### Run the app
 
